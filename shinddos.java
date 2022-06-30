@@ -158,7 +158,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("POST attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
     }
 
     private void getAttack(String url) throws Exception {
