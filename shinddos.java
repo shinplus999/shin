@@ -185,7 +185,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!:" + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!:" + responseCode + "Thread: " + this.seq);
     }
 
     private void sslGetAttack(String url) throws Exception {
@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("GET attack done!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("Đang bú cu Shin dz!: " + responseCode + "Thread: " + this.seq);
     }
 }
