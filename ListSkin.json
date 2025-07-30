@@ -1,19 +1,4 @@
-{
-  "skins": [
-    {
-      "name": "Nakroth Bạch Diện Chiến Thương",
-      "heroId": 150,
-      "skinId": 15
-    },
-    {
-      "name": "Nakroth Quỷ Thương Liệp Đế",
-      "heroId": 150,
-      "skinId": 13
-    },
-    {
-      "name": "Airi Thứ Nguyên Vệ Thần",
-      "heroId": 130,
-      "skinId": 11
-    }
-  ]
-}
+[
+  {"name": "Nakroth Bạch Diện Chiến Thương", "heroId": 150, "skinId": 15},
+  {"name": "Nakroth Quỷ Thương Liệp Đế", "heroId": 150, "skinId": 13},
+]
