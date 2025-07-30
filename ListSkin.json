@@ -1,4 +1,24 @@
-[
-  {"name": "Nakroth Bạch Diện Chiến Thương", "heroId": 150, "skinId": 15},
-  {"name": "Nakroth Quỷ Thương Liệp Đế", "heroId": 150, "skinId": 13},
-]
+{
+  "1": {"name": "Nakroth Bạch Diện Chiến Thương", "heroId": 150, "skinId": 15},
+  "2": {"name": "Nakroth Quỷ Thương Liệp Đế", "heroId": 150, "skinId": 13},
+  "3": {"name": "Airi Thứ Nguyên Vệ Thần", "heroId": 130, "skinId": 15},
+  "4": {"name": "Airi Thứ Nguyên Vệ Thần", "heroId": 130, "skinId": 11},
+  "5": {"name": "Lauriel Thứ Nguyên Vệ Thần", "heroId": 141, "skinId": 11},
+  "6": {"name": "Violet Nobara Kugisaki", "heroId": 111, "skinId": 15},
+  "7": {"name": "Violet Thứ Nguyên Vệ Thần", "heroId": 111, "skinId": 7},
+  "8": {"name": "Violet Huyết Ma Thần", "heroId": 111, "skinId": 13},
+  "9": {"name": "Violet Vọng Nguyệt Long Cơ", "heroId": 111, "skinId": 19},
+  "10": {"name": "Violet Vợ Người Ta", "heroId": 111, "skinId": 10},
+  "11": {"name": "Veres Lưu Ly Long Mẫu", "heroId": 167, "skinId": 11},
+  "12": {"name": "Murad Tuyệt Thế Thần Binh", "heroId": 132, "skinId": 10},
+  "13": {"name": "Krixi Phù Thủy Thời Không", "heroId": 106, "skinId": 20},
+  "14": {"name": "Krixi Tatsumaki", "heroId": 106, "skinId": 11},
+  "15": {"name": "Billow Thiên Tướng - Độ Ách", "heroId": 599, "skinId": 1},
+  "16": {"name": "Bolt Baron Thiên Phủ - Tư Mệnh", "heroId": 598, "skinId": 2},
+  "17": {"name": "Bijan Kình Thiên Long Kỵ", "heroId": 548, "skinId": 4},
+  "18": {"name": "Ngộ Không EVO 5", "heroId": 167, "skinId": 7},
+  "19": {"name": "Ngộ Không Tề Thiên Võ Thánh", "heroId": 167, "skinId": 12},
+  "20": {"name": "Lumia Lưỡng Nghi Long Hậu", "heroId": 136, "skinId": 9},
+  "21": {"name": "Hayate Tử Thần Vũ Trụ", "heroId": 132, "skinId": 4},
+  "22": {"name": "Hayate Tu Di Thánh Đế", "heroId": 132, "skinId": 10}
+}
