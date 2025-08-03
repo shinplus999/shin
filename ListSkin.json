@@ -20,5 +20,8 @@
   "19": {"name": "Ngộ Không Tề Thiên Võ Thánh", "heroId": 167, "skinId": 12},
   "20": {"name": "Lumia Lưỡng Nghi Long Hậu", "heroId": 136, "skinId": 9},
   "21": {"name": "Hayate Tử Thần Vũ Trụ", "heroId": 132, "skinId": 4},
-  "22": {"name": "Hayate Tu Di Thánh Đế", "heroId": 132, "skinId": 10}
+  "22": {"name": "Hayate Tu Di Thánh Đế", "heroId": 132, "skinId": 10},
+  "23": {"name": "Hayate Siêu Đạo Chích Kid", "heroId": 132, "skinId": 13},
+  "24": {"name": "Stuart Siêu Trùm Phản Diện", "heroId": 174, "skinId": 8},
+  "25": {"name": "Yorn Conan Edogawa", "heroId": 112, "skinId": 15}
 }
