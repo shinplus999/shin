@@ -24,7 +24,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -88,7 +88,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -208,7 +208,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -289,7 +289,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -308,7 +308,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -327,7 +327,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -339,7 +339,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -351,7 +351,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -370,7 +370,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -403,7 +403,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -422,7 +422,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -462,7 +462,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -481,7 +481,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -535,7 +535,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -582,7 +582,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -594,7 +594,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -606,7 +606,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -618,7 +618,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -630,7 +630,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -704,7 +704,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -749,4 +749,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject objectName=\"self\" id=\"0\" isTemp=\"false\" />\n    <TemplateObject objectName=\"target\" id=\"1\" isTemp=\"false\" />\n    <TemplateObject objectName=\"攻击者\" id=\"2\" isTemp=\"false\" />\n    <TemplateObject objectName=\"monster\" id=\"3\" isTemp=\"false\" />\n    <TemplateObject objectName=\"bullet\" id=\"4\" isTemp=\"false\" />\n    <TemplateObject objectName=\"yuyuyu\" id=\"5\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <Vector3i name=\"_BulletDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"0.500\" loop=\"false\">\n    <Track trackName=\"FindBulletTick0\" eventType=\"FindBulletTick\" guid=\"4759d353-792f-4d12-ae6f-68c658a5db51\" enabled=\"false\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"FindBulletTick\" time=\"0.000\" isDuration=\"false\" guid=\"4382fe55-ce7f-4c7e-a820-11e788db8c0b\">\n        <TemplateObject name=\"targetId\" objectName=\"None\" id=\"-1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"bulletTypeId\" value=\"5993100\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"searchRange\" value=\"200000\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"CallbackAge\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"GetActorTick0\" eventType=\"GetActorTick\" guid=\"b6559359-6c14-4b18-8942-cbf59647d731\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"GetActorTick\" time=\"0.000\" isDuration=\"false\" guid=\"a4e9b9b2-00fc-4f77-bbcd-1ccf8324e540\">\n        <String name=\"actorName\" value=\"yuyuyu\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"getFromTargetId\" objectName=\"self\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"GetActorId\" objectName=\"monster\" id=\"3\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"refParamName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"SetBehaviourModeTick0\" eventType=\"SetBehaviourModeTick\" guid=\"ac6711cf-9d67-431b-82fd-837cb07ddb0f\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"SetBehaviourModeTick\" time=\"0.000\" isDuration=\"false\" guid=\"fac20c0f-7bf6-48ba-83ab-e3a4c5439ada\">\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"stopCurSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"PlayAnimDuration0\" eventType=\"PlayAnimDuration\" guid=\"2ecf4038-a5bc-479e-b990-2f4b609ee651\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"PlayAnimDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"cc9347d8-dcec-48b3-a283-615d45949e5c\">\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"clipName\" value=\"Stun\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"layer\" value=\"5\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"ForbidAbilityDuration0\" eventType=\"ForbidAbilityDuration\" guid=\"f9d65200-03d7-4477-afcc-73f40377ec6c\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"ForbidAbilityDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"a5a1a70f-a833-4843-924c-f3fb04fc7ab7\">\n        <TemplateObject name=\"attackerId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidMove\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticleTick0\" eventType=\"TriggerParticleTick\" guid=\"88394939-ad32-4001-8e94-b0c1feed440f\" enabled=\"false\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"TriggerParticleTick\" time=\"0.000\" isDuration=\"false\" guid=\"3a82d780-8d85-42e2-a44f-33bdf11b84de\">\n        <TemplateObject name=\"targetId\" objectName=\"None\" id=\"-1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/hero_skill_effects/599_lvmeng/LvMeng_hurt02\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"lifeTime\" value=\"0.600\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"bindPosOffset\" x=\"0.000\" y=\"1.000\" z=\"0.000\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"applyActionSpeedToParticle\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"BeatBackDuration0\" eventType=\"BeatBackDuration\" guid=\"c33c3dc6-2138-4038-8951-39277cdc5036\" enabled=\"false\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"BeatBackDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"fbcbb4f9-d638-469d-a60a-e3ca2852a85d\">\n        <TemplateObject name=\"attackerId\" objectName=\"self\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"initSpeed\" value=\"15000\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"accelerateSpeed\" value=\"-30\" refParamName=\"\" useRefParam=\"false\" />\n        <Enum name=\"dirType\" value=\"1\" EnumValue=\"攻击者朝向\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"BindActorSlotDuration0\" eventType=\"BindActorSlotDuration\" guid=\"6972f183-13c9-45b2-9fd4-69a2ccdc38cb\" enabled=\"false\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"BindActorSlotDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"f925b87f-67d6-45fd-8aa2-8d037fd592f9\">\n        <TemplateObject name=\"actorId\" objectName=\"self\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3i name=\"translation\" x=\"0\" y=\"0\" z=\"1500\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"MoveActorDuration0\" eventType=\"MoveActorDuration\" guid=\"91c8589b-bd72-4469-9bf5-6ea43961eaf8\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"MoveActorDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"364fa157-f502-45fa-9513-5587ed9bb621\">\n        <TemplateObject name=\"actorId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"destId\" objectName=\"monster\" id=\"3\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"moveSpeed\" value=\"30000\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"IgnoreCollision\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bContinuousFowDetection\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"鱼\" eventType=\"FilterTargetType\" guid=\"a6d1759e-5e97-4897-97dc-df0f13b9070f\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"false\" SkinAvatarFilterType=\"9\">\n      <Event eventName=\"FilterTargetType\" time=\"0.000\" isDuration=\"false\" guid=\"82c68b6b-11fc-45c1-9a18-7c5a4c2b25fa\">\n        <TemplateObject name=\"targetId\" objectName=\"self\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bFilterBufferLayers\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"buffId\" value=\"599898\" refParamName=\"\" useRefParam=\"false\" />\n        <Enum name=\"operatorType\" value=\"4\" EnumValue=\"大于\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n      <SkinOrAvatarList id=\"59901\" />\n    </Track>\n    <Track trackName=\"59901地面\" eventType=\"PlayHeroSoundTick\" guid=\"0638b33a-046b-4435-b6c0-bb3e25c4a1ad\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"false\" OrConditions=\"true\" SkinAvatarFilterType=\"9\">\n      <Condition id=\"9\" guid=\"a6d1759e-5e97-4897-97dc-df0f13b9070f\" status=\"false\" />\n      <Event eventName=\"PlayHeroSoundTick\" time=\"0.000\" isDuration=\"false\" guid=\"17c4a7e6-5701-4cdb-9385-3f5ee5d30489\">\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"eventName\" value=\"Play_Billow_Skill_C_1_Hit\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n      <SkinOrAvatarList id=\"59901\" />\n    </Track>\n    <Track trackName=\"59901潜水\" eventType=\"PlayHeroSoundTick\" guid=\"53a912ca-7fd0-4669-b352-3bfae1c315d6\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"false\" OrConditions=\"true\" SkinAvatarFilterType=\"9\">\n      <Condition id=\"9\" guid=\"a6d1759e-5e97-4897-97dc-df0f13b9070f\" status=\"true\" />\n      <Event eventName=\"PlayHeroSoundTick\" time=\"0.000\" isDuration=\"false\" guid=\"b5174b6f-d86b-4499-a2ce-7c83c89ad79c\">\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"eventName\" value=\"Play_Billow_Skill_C_2_Hit\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n      <SkinOrAvatarList id=\"59901\" />\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
