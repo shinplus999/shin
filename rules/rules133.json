@@ -115,7 +115,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -176,7 +176,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -188,7 +188,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -200,7 +200,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -247,7 +247,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -294,7 +294,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -399,7 +399,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -553,7 +553,8 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     }
   ]
+
 }
