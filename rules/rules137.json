@@ -52,7 +52,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -64,7 +64,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -83,7 +83,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -109,7 +109,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -121,7 +121,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -323,7 +323,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -349,7 +349,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -382,7 +382,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -394,7 +394,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -406,7 +406,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -474,7 +474,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -486,7 +486,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -505,7 +505,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -531,7 +531,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -613,7 +613,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -632,7 +632,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -672,7 +672,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -684,7 +684,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -729,4 +729,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"self\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <Vector3i name=\"_BulletDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n    <Vector3i name=\"_TargetDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n    <Vector3i name=\"_TargetPos\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"1.000\" loop=\"false\">\n    <Track trackName=\"SetBehaviourModeTick0\" eventType=\"SetBehaviourModeTick\" guid=\"21fe3434-5d43-4606-9c78-b2051bba9f0a\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"SetBehaviourModeTick\" time=\"0.000\" isDuration=\"false\" guid=\"7756d141-0215-46c1-8fbe-e7d176fe0f85\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"stopMove\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <Enum name=\"eAbortLevel\" value=\"1\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"stopCurSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"abortFilterSkill0Delay\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"ForbidAbilityDuration0\" eventType=\"ForbidAbilityDuration\" guid=\"539862af-30e8-416b-82ba-3635f609444e\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"ForbidAbilityDuration\" time=\"0.000\" length=\"1.000\" isDuration=\"true\" guid=\"f404ad80-cd06-4977-a865-abee0654ea21\">\n        <TemplateObject name=\"attackerId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidFilterSkill0\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidSkillAbort\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"6a75a426-fdea-4f95-b5ea-2532bdbf0dad\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"1.000\" isDuration=\"true\" guid=\"cf5220de-e86d-48d7-9dbf-efdea12d9650\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/tongyong_effects/ui_fx/chengmo_tongyong_01\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"bindPosOffset\" x=\"0.000\" y=\"4.000\" z=\"0.000\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3i name=\"scalingInt\" x=\"10000\" y=\"10000\" z=\"10000\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"syncAnimationName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"customTagName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
