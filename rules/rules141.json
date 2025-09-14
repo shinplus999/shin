@@ -97,7 +97,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -151,7 +151,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -333,7 +333,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -378,4 +378,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"self\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList />\n  <Action tag=\"\" length=\"0.200\" loop=\"false\">\n    <Track trackName=\"FilterTargetType0\" eventType=\"FilterTargetType\" guid=\"4745ff1e-a5ad-4e69-ac0e-4c4556e90b16\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\" lod=\"0\">\n      <Event eventName=\"FilterTargetType\" time=\"0.000\" isDuration=\"false\" guid=\"bf426109-141f-4fb3-b303-a4100be9f82b\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bOnlySelf\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"SkillFuncInstant0\" eventType=\"SkillFuncInstant\" guid=\"520ea798-eafc-4233-a6d1-d7092c662df9\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\" lod=\"0\">\n      <Condition id=\"0\" guid=\"4745ff1e-a5ad-4e69-ac0e-4c4556e90b16\" status=\"true\" />\n      <Event eventName=\"SkillFuncInstant\" time=\"0.000\" isDuration=\"false\" guid=\"ad10247f-44c6-4f9d-85df-f7a59cfd2ccb\">\n        <Enum name=\"SkillFuncType\" value=\"16\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
