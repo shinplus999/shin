@@ -156,7 +156,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      "
     },
     {
       "match": {
@@ -305,4 +305,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"攻击者\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n    <TemplateObject id=\"2\" objectName=\"bullet\" isTemp=\"true\" />\n    <TemplateObject id=\"3\" objectName=\"self\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <String name=\"BulletPrefab\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n    <Vector3i name=\"_BulletPos\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n    <uint name=\"106a2b1\" value=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"4.600\" loop=\"false\">\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"723dd7bc-8fd7-4e6a-86ed-c7715304bf4d\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"4.600\" isDuration=\"true\" guid=\"d9013820-092c-4146-84a8-47c46c2babec\">\n        <TemplateObject name=\"targetId\" id=\"0\" objectName=\"攻击者\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/hero_skill_effects/106_xiaoqiao/xiaoqiao_skill03\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bOnlyFollowPos\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
