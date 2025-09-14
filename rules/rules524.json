@@ -59,7 +59,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -106,7 +106,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -132,7 +132,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -214,7 +214,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -233,7 +233,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -273,7 +273,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -285,7 +285,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -297,7 +297,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -323,7 +323,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -335,7 +335,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -417,7 +417,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -436,7 +436,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -462,7 +462,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -481,7 +481,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -493,7 +493,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -505,7 +505,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -517,7 +517,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -529,7 +529,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -541,7 +541,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -553,7 +553,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -579,7 +579,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -605,7 +605,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -624,7 +624,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -636,7 +636,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -648,7 +648,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -688,7 +688,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -700,7 +700,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -712,7 +712,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -731,7 +731,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -795,7 +795,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -835,7 +835,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -866,4 +866,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject objectName=\"self\" id=\"0\" isTemp=\"false\" />\n    <TemplateObject objectName=\"target\" id=\"1\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList />\n  <Action tag=\"\" length=\"0.500\" loop=\"false\">\n    <Track trackName=\"PlayAnimDuration1\" eventType=\"PlayAnimDuration\" guid=\"8dcd0a36-6344-465a-b4f4-82d9e888d6d3\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" SkinAvatarFilterType=\"9\">\n      <Event eventName=\"PlayAnimDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"68fbf7ff-d643-487f-a728-9c4fb0a9b35d\">\n        <TemplateObject name=\"targetId\" objectName=\"self\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"clipName\" value=\"Atk2\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"crossFadeTime\" value=\"0.300\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n      <SkinOrAvatarList id=\"52414\" />\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
