@@ -124,7 +124,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -170,7 +170,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -296,7 +296,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -308,7 +308,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -349,4 +349,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"self\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <Vector3i name=\"_BulletDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"0.500\" loop=\"false\">\n    <Track trackName=\"SetBehaviourModeTick0\" eventType=\"SetBehaviourModeTick\" guid=\"21fe3434-5d43-4606-9c78-b2051bba9f0a\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"SetBehaviourModeTick\" time=\"0.000\" isDuration=\"false\" guid=\"24e505e8-b0fd-4fbb-87f4-3d50e5b9a07c\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"delayStopCurSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"PlayAnimDuration0\" eventType=\"PlayAnimDuration\" guid=\"fccf92d7-a5d8-43d0-a207-46040735b682\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"PlayAnimDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"c33203ba-eb3d-4d0e-b72e-b0b71d6aa48f\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"clipName\" value=\"Stun\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bDontReplaceSameAnim\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"layer\" value=\"5\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"crossFadeTime\" value=\"0.100\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bUseFadeOutTime\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"fadeOutTime\" value=\"0.200\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"BeatBackDuration0\" eventType=\"BeatBackDuration\" guid=\"2cd3c2f2-3457-4ecd-9668-6ea503208581\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"BeatBackDuration\" time=\"0.000\" length=\"0.400\" isDuration=\"true\" guid=\"c411f193-21c1-4f74-9f46-c3648daa5e46\">\n        <TemplateObject name=\"attackerId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"initSpeed\" value=\"17500\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"accelerateSpeed\" value=\"-43\" refParamName=\"\" useRefParam=\"false\" />\n        <Enum name=\"dirType\" value=\"1\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"ForbidAbilityDuration0\" eventType=\"ForbidAbilityDuration\" guid=\"539862af-30e8-416b-82ba-3635f609444e\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"ForbidAbilityDuration\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"e0768fc8-7c41-421e-bfd2-deea82c7f662\">\n        <TemplateObject name=\"attackerId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidMove\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidSkill\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"forbidMoveRotate\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle4\" eventType=\"TriggerParticle\" guid=\"cb642c3e-6b4f-4a54-8275-876dc7d26cf9\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"cdd772e3-6a13-40db-bbf4-a10799f0dd73\">\n        <TemplateObject name=\"targetId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" id=\"1\" objectName=\"target\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/tongyong_effects/ui_fx/xuanyun_tongyong_01\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"bindPosOffset\" x=\"0.000\" y=\"-0.800\" z=\"0.000\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bindOnHUD\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"syncAnimationName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"customTagName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
