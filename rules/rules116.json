@@ -317,7 +317,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -329,7 +329,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -474,7 +474,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -486,7 +486,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -498,7 +498,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -510,7 +510,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -529,7 +529,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -541,7 +541,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -553,7 +553,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -563,4 +563,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"self\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <Vector3i name=\"_TargetDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n    <Vector3i name=\"_TargetPos\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"0.200\" loop=\"false\">\n    <Track trackName=\"SkillFuncInstant0\" eventType=\"SkillFuncInstant\" guid=\"f3c0303e-5ee4-4930-98eb-82fbca3652c1\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"SkillFuncInstant\" time=\"0.000\" isDuration=\"false\" guid=\"fe6e42d0-baee-43e6-8881-c7dbfb923717\">\n        <Enum name=\"SkillFuncType\" value=\"29\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
