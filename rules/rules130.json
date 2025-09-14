@@ -129,7 +129,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -141,7 +141,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -153,7 +153,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -179,7 +179,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -198,7 +198,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -434,7 +434,7 @@
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
       ],
-      "template": ""
+      
     },
     {
       "match": {
@@ -493,4 +493,5 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject id=\"0\" objectName=\"self\" isTemp=\"false\" />\n    <TemplateObject id=\"1\" objectName=\"target\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList>\n    <Vector3i name=\"_TargetDir\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n    <Vector3i name=\"_TargetPos\" x=\"0\" y=\"0\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n  </RefParamList>\n  <Action tag=\"\" length=\"2.000\" loop=\"false\">\n    <Track trackName=\"CheckSkinIdVirtualTick0\" eventType=\"CheckSkinIdVirtualTick\" guid=\"615354aa-4ec2-4051-a64b-e04b598f293d\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"CheckSkinIdVirtualTick\" time=\"0.008\" isDuration=\"false\" guid=\"e79d735d-9426-49bd-9337-a878822b5cdf\">\n        <TemplateObject name=\"targetId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <int name=\"skinId\" value=\"13015\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"53cf1b6d-5402-4e73-8b77-8b9c481c4f83\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"2.000\" isDuration=\"true\" guid=\"f4bdf36e-00ac-4445-8357-fa94f00a0403\">\n        <TemplateObject name=\"targetId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/hero_skill_effects/130_gongbenwuzang/gongbenwuzang_attack03_spell01\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bOnlyFollowPos\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"b1stTickParentRot\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"enableMaxFollowTime\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"maxFollowTime\" value=\"0.400\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"syncAnimationName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"customTagName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"FilterTargetType0\" eventType=\"FilterTargetType\" guid=\"889a6672-eebd-48a2-a8f7-383461cd16db\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Event eventName=\"FilterTargetType\" time=\"0.000\" isDuration=\"false\" guid=\"db472900-532a-436a-8644-cf04735b7797\">\n        <TemplateObject name=\"targetId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bFilterSameCamp\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"1573eb86-62df-4ffd-b82c-7504c48756cd\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Condition id=\"2\" guid=\"889a6672-eebd-48a2-a8f7-383461cd16db\" status=\"true\" />\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"0.500\" isDuration=\"true\" guid=\"6161ce8d-45d8-4d7e-8976-f2f2f7da42eb\">\n        <TemplateObject name=\"targetId\" id=\"-1\" objectName=\"None\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"Prefab_Skill_Effects/tongyong_effects/Indicator/Auto_red\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"scaling\" x=\"0.400\" y=\"1.000\" z=\"1.000\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"maxFollowTime\" value=\"0.400\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"syncAnimationName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"customTagName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"1c02aa2a-7219-48ac-b4c4-bc1725d4c90d\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" stopAfterLastEvent=\"true\">\n      <Condition id=\"0\" guid=\"615354aa-4ec2-4051-a64b-e04b598f293d\" status=\"true\" />\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"2.000\" isDuration=\"true\" guid=\"4f80b572-954c-4e2e-a7dc-a253d434129c\">\n        <TemplateObject name=\"targetId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" id=\"0\" objectName=\"self\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"prefab_skill_effects/hero_skill_effects/130_gongbenwuzang/GongBenWuZang_attack03_spell01_1\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bOnlyFollowPos\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"b1stTickParentRot\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"enableMaxFollowTime\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"maxFollowTime\" value=\"0.400\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"syncAnimationName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"customTagName\" value=\"\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n  </Action>\n</Project>"
     }
   ]
+
 }
