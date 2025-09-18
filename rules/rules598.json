@@ -178,8 +178,7 @@
           "action": "_note",
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
-      ],
-      
+      ]
     },
     {
       "match": {
@@ -239,8 +238,7 @@
           "action": "_note",
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
-      ],
-      
+      ]
     },
     {
       "match": {
@@ -516,8 +514,7 @@
           "action": "_note",
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
-      ],
-      
+      ]
     },
     {
       "match": {
@@ -576,8 +573,7 @@
           "action": "_note",
           "msg": "parse_error:not well-formed (invalid token): line 1, column 2"
         }
-      ],
-      
+      ]
     },
     {
       "match": {
@@ -674,5 +670,4 @@
       "template": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project>\n  <TemplateObjectList>\n    <TemplateObject objectName=\"攻击者\" id=\"0\" isTemp=\"false\" />\n    <TemplateObject objectName=\"target\" id=\"1\" isTemp=\"false\" />\n    <TemplateObject objectName=\"bullet\" id=\"2\" isTemp=\"true\" />\n    <TemplateObject objectName=\"self\" id=\"3\" isTemp=\"false\" />\n    <TemplateObject objectName=\"bullet1\" id=\"4\" isTemp=\"false\" />\n    <TemplateObject objectName=\"AActor\" id=\"5\" isTemp=\"false\" />\n    <TemplateObject objectName=\"BActor\" id=\"6\" isTemp=\"false\" />\n  </TemplateObjectList>\n  <RefParamList />\n  <Action tag=\"\" length=\"1.000\" loop=\"false\">\n    <Track trackName=\"SkillFuncInstant0\" eventType=\"SkillFuncInstant\" guid=\"1546ea5e-562e-417e-afc4-f7fa1e13e11c\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" nameSpace=\"\">\n      <Event eventName=\"SkillFuncInstant\" time=\"0.000\" isDuration=\"false\" guid=\"ef5c904e-89f6-4992-a844-1d1b3ecbe7d8\">\n        <Enum name=\"SkillFuncType\" value=\"1\" EnumValue=\"法术伤害\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"TriggerParticle0\" eventType=\"TriggerParticle\" guid=\"42e60656-d38f-4881-9224-39fb4da3c829\" enabled=\"false\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" nameSpace=\"\">\n      <Event eventName=\"TriggerParticle\" time=\"0.000\" length=\"1.000\" isDuration=\"true\" guid=\"603acb98-3b1e-4990-a352-d91582f83da1\">\n        <TemplateObject name=\"targetId\" objectName=\"None\" id=\"-1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"Prefab_Skill_Effects/Hero_Skill_Effects/598_DaSiKong/DaSiKong_attack02A_01\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"bindPosOffset\" x=\"0.000\" y=\"0.100\" z=\"0.000\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"applyActionSpeedToParticle\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"MoveBeamDuration0\" eventType=\"MoveBeamDuration\" guid=\"ffe6d8bc-2d63-49df-9191-4b65cf21593e\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" nameSpace=\"\">\n      <Event eventName=\"MoveBeamDuration\" time=\"0.000\" length=\"0.200\" isDuration=\"true\" guid=\"ee026f1a-ec0d-4f5d-8135-79aa9bfeb6ab\">\n        <TemplateObject name=\"sourceId\" objectName=\"攻击者\" id=\"0\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"Prefab_Skill_Effects/Hero_Skill_Effects/598_DaSiKong/DaSiKong_attack01C_02\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3i name=\"bindPosOffset\" x=\"0\" y=\"1800\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3i name=\"bindDestOffet\" x=\"0\" y=\"1500\" z=\"0\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"textureScale\" value=\"1.000\" refParamName=\"\" useRefParam=\"false\" />\n        <float name=\"beamWidth\" value=\"0.700\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bRealTimeRefresh\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"bIgnoreLength\" value=\"true\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"PlayHeroSoundTick8\" eventType=\"PlayHeroSoundTick\" guid=\"8d78c743-6a93-47d0-b3e4-9307b747ae97\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" nameSpace=\"\">\n      <Event eventName=\"PlayHeroSoundTick\" time=\"0.000\" isDuration=\"false\" guid=\"540d212c-56f5-4f2d-98f2-69a14e401642\">\n        <TemplateObject name=\"targetId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"eventName\" value=\"Play_SiKongZhen_Skill_C_Hit\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n    </Track>\n    <Track trackName=\"变身前近战受击特效\" eventType=\"TriggerParticleTick\" guid=\"e7b8591e-9f86-4bc3-a687-9c4eaccafce6\" enabled=\"true\" useRefParam=\"false\" refParamName=\"\" r=\"0.000\" g=\"0.000\" b=\"0.000\" execOnForceStopped=\"false\" execOnActionCompleted=\"false\" SkinAvatarFilterType=\"9\">\n      <Event eventName=\"TriggerParticleTick\" time=\"0.000\" isDuration=\"false\" guid=\"968c4102-cc95-4f42-8aec-cd8abc5c0946\">\n        <TemplateObject name=\"targetId\" objectName=\"None\" id=\"-1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <TemplateObject name=\"objectSpaceId\" objectName=\"target\" id=\"1\" isTemp=\"false\" refParamName=\"\" useRefParam=\"false\" />\n        <String name=\"resourceName\" value=\"Prefab_Skill_Effects/Hero_Skill_Effects/598_DaSiKong/11120/DaSiKong_hurt01A_01\" refParamName=\"\" useRefParam=\"false\" />\n        <Vector3 name=\"bindPosOffset\" x=\"0.000\" y=\"1.000\" z=\"0.000\" refParamName=\"\" useRefParam=\"false\" />\n        <bool name=\"applyActionSpeedToParticle\" value=\"false\" refParamName=\"\" useRefParam=\"false\" />\n      </Event>\n      <SkinOrAvatarList id=\"59802\" />\n    </Track>\n  </Action>\n</Project>"
     }
   ]
-
 }
