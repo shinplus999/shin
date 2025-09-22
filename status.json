@@ -1,7 +1,6 @@
+// status.json
 {
   "maintenance": "OFF",
-  "message": "Locked By Admin.",
+  "message": "Is Active.",
   "timestamp": 1758506741 
-
 }
-
