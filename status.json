@@ -1,6 +1,6 @@
-// status.json
 {
   "maintenance": "ON",
-  "message": "Tool đã bị khóa bởi Admin.",
+  "message": "Locked By Admin.",
   "timestamp": 1758506741 
+
 }
