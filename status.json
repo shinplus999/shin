@@ -1,6 +1,5 @@
-// status.json
 {
   "maintenance": "OFF",
-  "message": "Is Active.",
-  "timestamp": 1758506741 
+  "message": "Active.",
+  "timestamp": 1758506872 
 }
